@@ -1,0 +1,14 @@
+def string_adder(str1="", str2=""):
+    return (str1 + " " + str2)
+
+
+
+#print(string_adder("Naveen", "Badur"))
+print(string_adder("Naveen"))
+
+
+def multiplier(a=1, b=1, c=1):
+    return  a * b * c
+
+
+print(multiplier())

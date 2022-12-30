@@ -1,0 +1,8 @@
+{
+    "editor.fontSize": 15,
+    "editor.minimap.autohide": true,
+    "files.autoSave": "onFocusChange",
+    "code-runner.saveAllFilesBeforeRun": true,
+    "code-runner.showExecutionMessage": false,
+    "editor.minimap.side": "right"
+}

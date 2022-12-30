@@ -1,0 +1,22 @@
+# A fucntion is a collection of 1 or more statements 
+
+
+What is a function?
+
+A function is a collection of 1 or more Python statements. It is an organized chunk of code that can be reused throughout a program.
+
+Tell me a little about parameters, arguments, and return values.
+
+A parameter is a name for an expected input to a function. The argument is the actual value passed in for a parameter. A return value is the output of a function.
+
+What is a default argument? How do you define one?
+
+A default argument is a fallback value that will be passed to a parameter if an argument is not passed during function invocation.
+
+What data type represents nothingness or nonexistence or emptiness?
+
+None
+
+What is the difference between positional arguments and keyword arguments?
+
+A positional argument is passed to a function by sequence (the order of expected arguments). A keyword argument is passed to a function by a keyword identifier.
