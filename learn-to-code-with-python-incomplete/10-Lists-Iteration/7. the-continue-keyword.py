@@ -23,4 +23,5 @@ print(sum_of_positivie_numbers([1, 2, -3, 4]))
 
 
 
-aajumbare
+
+
