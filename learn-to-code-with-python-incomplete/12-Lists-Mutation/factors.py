@@ -10,25 +10,25 @@
 
 
 
-# def factors(numy):
-#     nw_list = []
-#     ctrlnum =  1
-#     while numy  >= ctrlnum:
-#         if (numy % ctrlnum) == 0:
-#             nw_list.append(ctrlnum)
-#             ctrlnum += 1
+def factors(numy):
+    nw_list = []
+    ctrlnum =  1
+    while numy  >= ctrlnum:
+        if (numy % ctrlnum) == 0:
+            nw_list.append(ctrlnum)
+        ctrlnum += 1
             
-#     return nw_list
-
-
-def factors(numx):
-    nw_list = [] 
-
-    for i in range(1, numx +1):
-        if numx % i == 0:
-            nw_list.append(i)
-    
     return nw_list
 
+#given solution
+# def factors(numx):
+#     nw_list = [] 
+
+#     for i in range(1, numx +1):
+#         if numx % i == 0:
+#             nw_list.append(i)
+    
+#     return nw_list
 
 print(factors(64)) 
+
