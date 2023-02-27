@@ -16,3 +16,8 @@ print(coffees)
 coffees = ["Latte", "espresso", "macchiato", "Frappucino"]
 print(sorted(coffees))
 print(coffees)
+
+test_list= ["Mocha", "Americano"]
+
+coffees.extend(test_list)
+print(coffees)
