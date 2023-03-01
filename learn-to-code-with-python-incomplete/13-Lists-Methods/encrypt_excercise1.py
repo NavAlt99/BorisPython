@@ -10,9 +10,13 @@
 
 
 def encrypt_message(stringx):
-    alphapet = "abcdefghijklmnopqrstuvwxyz"
-    encripted = ""
+    alphabet = "abcdefghijklmnopqrstuvwxyz"
+    encrypted = ""
 
-    for letter in message:
-        alphabet.index(letter)
-    
+    for letter in stringx:
+        encrypted_letter_index = (alphabet.index(letter) + 1) % 26
+        encrypted += alphabet[encrypted_letter_index]
+
+    return encrypted
+
+print(encrypt_message("xyz"))
