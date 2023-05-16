@@ -18,7 +18,7 @@
         "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
         "objective-c": "cd $dir && gcc -framework Cocoa $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
         "php": "php",
-        "python": "python -u",
+        "python": "python3 -u",
         "perl": "perl",
         "perl6": "perl6",
         "ruby": "ruby",
@@ -65,3 +65,8 @@
         "sml": "cd $dir && sml $fileName"
     }
 }
+
+// "python.pythonPath": "python3",
+// "code-runner.executorMap": {
+//     "python": "/usr/local/bin/python3"
+// }
