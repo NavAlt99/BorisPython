@@ -6,5 +6,5 @@ flight_prices = {
 }
 
 
-print(flight_prices["Chicago"])
-print(flight_prices["Denver"])
+print(str(flight_prices["Chicago"]) + " USD")
+print(str(flight_prices["Denver"]) + " USD")
